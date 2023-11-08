@@ -1,0 +1,24 @@
+---
+title: "221221_R_NLP_funWithSpacyr"
+author: "Alison C. Holland"
+date: "2022-12-21"
+output: html_document
+---
+
+Download and load libraries
+```{r}
+# download libraries
+#install.packages("DBI") # needed for dplyr
+#install.packages("Rcpp") # needed for dplyr
+#install.packages("plyr")
+#install.packages("dplyr")
+#install.packages("tidyr")
+#install.packages("readxl")
+#install.packages("rJava")
+#install.packages("qdap")
+install.packages("quanteda") 
+
+# load libraries
+library(quanteda) # needed for dplyr
+```
+
